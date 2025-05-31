@@ -6,3 +6,65 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+
+# --- macOS 系统文件 ---
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# --- IntelliJ IDEA 项目文件 ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+gen/
+
+# --- 编译输出 ---
+bin/
+build/
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+
+# --- 日志文件 ---
+*.log
+logs/
+
+# --- 依赖管理 ---
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# --- 环境配置 ---
+.env
+*.env.local
+*.env.*.local
+
+# --- 测试相关 ---
+coverage/
+*.jfr
+*.hprof
+
+# --- 其他 ---
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+*.diff
