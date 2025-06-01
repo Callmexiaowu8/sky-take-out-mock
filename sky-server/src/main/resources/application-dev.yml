@@ -22,12 +22,15 @@ sky:
     password:
     database: 10
   wechat:
-    appid: wxffb3637a228223b8
-    secret: 84311df9199ecacdf4f12d27b6b9522d
-    mchid : 1561414331
-    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
-    privateKeyFilePath: D:\pay\apiclient_key.pem
-    apiV3Key: CZBK51236435wxpay435434323FFDuv3
-    weChatPayCertFilePath: D:\pay\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
-    notifyUrl: https://58869fb.r2.cpolar.top/notify/paySuccess
-    refundNotifyUrl: https://58869fb.r2.cpolar.top/notify/refundSuccess
+#    appid: wxffb3637a228223b8
+#    secret: 84311df9199ecacdf4f12d27b6b9522d
+    # 微信支付配置信息
+    appid: wxdb80b84a6a8a9741  # 微信支付分配的公众账号ID
+    secret: d865d6aaaab0b6c9e6704709f2026290  # 微信支付分配的公众账号秘钥
+    mchid: 1561414331  # 微信支付分配的商户号
+    mchSerialNo: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606  # 商户证书序列号
+    privateKeyFilePath: D:\pay\apiclient_key.pem  # 商户私钥文件路径
+    apiV3Key: CZBK51236435wxpay435434323FFDuv3  # API v3密钥
+    weChatPayCertFilePath: D:\pay\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem  # 微信支付证书文件路径
+    notifyUrl: https://58869fb.r2.cpolar.top/notify/paySuccess  # 支付成功通知回调地址
+    refundNotifyUrl: https://58869fb.r2.cpolar.top/notify/refundSuccess  # 退款成功通知回调地址
